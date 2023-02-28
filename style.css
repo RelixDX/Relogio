@@ -1,0 +1,91 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    height: 100%;
+}
+body{
+    background-color: #444;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+.digitalClock{
+    width: 300px;
+    height: 100px;
+    background-color: white;
+    border: 5px solid #f00;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    margin-top: 50px;
+}
+.clock{
+    margin-top: 100px;
+    width: 350px;
+    height: 350px; 
+    border-radius: 50%;
+    border: 7px solid #fff;
+    background-color: #222;
+}
+.clock .pointers{
+    width: 100%;
+    height: 100%;
+    padding-left: 50%;
+    padding-top: 50%;
+    margin-top: -3px;
+}
+.point{
+    width: 172px;
+    height: 5px;
+    position: absolute;
+    transform-origin: left;
+    display: flex;
+    justify-content: flex-end;
+}
+.risco{
+    width: 15px;
+    height: 100%;
+    background-color: #fff;
+}
+.clock .ponteiros{
+    width: 100%;
+    height: 100%;
+    padding-left: 50%;
+    padding-top: 50%;
+    margin-top: -100%;
+}
+.p{
+    transform-origin: left;
+    transform: rotate(0deg);
+    border-radius: 50%;
+    position: absolute;
+}
+.p-s{
+    width: 140px;
+    height: 5px;
+    background-color: #f00;
+}
+.p-m{
+    width: 145px;
+    height: 7px;
+    background-color: #fff;
+}
+.p-h{
+    width: 100px;
+    height: 15px;
+    background-color: #fff;
+}
+.encaixe{
+    background-color: #fff;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    position: absolute;
+    margin-left: -9px;
+    margin-top: -8px;
+}
